@@ -21,7 +21,7 @@
 
     <Button
         android:id="@+id/encrypt"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:onClick="onEncrypt"
@@ -33,7 +33,7 @@
 
     <Button
         android:id="@+id/decrypt"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
         android:onClick="onDecrypt"
@@ -58,7 +58,7 @@
 
     <Button
         android:id="@+id/save"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:onClick="onSave"
@@ -70,7 +70,7 @@
 
     <Button
         android:id="@+id/load"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
         android:onClick="onLoad"

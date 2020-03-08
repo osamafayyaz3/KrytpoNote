@@ -59,10 +59,4 @@ public class Cipher {
         return result;
     }
 
-    public static void main(String[] args) {
-        Cipher my = new Cipher("1234");
-        System.out.println(my.encrypt("AAA"));
-        System.out.println(my.encrypt("NQYI "));
-        System.out.println(my.decrypt("OSAMA"));
-    }
 }
